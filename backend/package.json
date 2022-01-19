@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "proxy": "http://localhost:8000/",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon --watch backend --exec babel-node backend/server.js",
+    "start": "node server.js"
+  },
+  "Dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/node": "7.10.1",
+    "@babel/preset-env": "7.10.2",
+    "nodemon": "2.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
